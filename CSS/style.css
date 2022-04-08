@@ -1,0 +1,123 @@
+.jumbotron {
+  margin-top: -20px;
+}
+
+.jumbotron .anime {
+  pointer-events: none;
+}
+
+.about-me {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.about-me .ns {
+  font-family: Monospace;
+  font-weight: bold;
+}
+
+.about-me .xyz {
+  font-size: 10px;
+}
+
+.about-me .nama
+{
+  font-size: 29px;
+  width: 100%;
+  white-space:nowrap;
+  overflow:hidden;
+  -webkit-animation: typing 5s steps(70, end);
+  animation: animasi-ketik 5s steps(70, end);
+}
+@keyframes animasi-ketik{
+  from { width: 0; }
+}
+@-webkit-keyframes animasi-ketik{
+  from { width: 0; }
+}
+
+.box-contact {
+  width: 95%;
+  height: auto;
+  border: 1px solid CadetBlue;
+  box-shadow: 1px 1px 5px 1px CadetBlue;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.box-contact .logo {
+  font-family: Georgia;
+  font-weight: bold;
+  color: #0066FF;
+}
+
+.box-contact .media {
+  border-top: 1px solid #003366;
+  margin-top: -10px;
+  padding: 5px;
+}
+
+.box-contact .media ul li{
+  list-style: none;
+  margin-top: 10px;
+}
+
+.media ul li a {
+  text-decoration: none;
+}
+
+.media .wa {
+  margin-left: -25px;
+  margin-right: 5px;
+}
+
+.media .ig {
+  margin-left: -25px;
+  margin-right: 5px;
+}
+
+.media .tele {
+  margin-left: -25px;
+  margin-right: 5px;
+}
+
+.media .github {
+  margin-left: -25px;
+  margin-right: 5px;
+}
+
+.skill {
+  width: 95%;
+  height: auto;
+  border: 1px solid CadetBlue;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px CadetBlue;
+  margin: auto;
+}
+
+.skill h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  color: #0066FF;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.listskill {
+  border-top: 1px solid #000;
+}
+
+.listskill ul li {
+  margin-top: 10px;
+}
+
+footer {
+  background: #000;
+}
+
+footer h3 {
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
