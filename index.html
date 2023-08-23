@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafi khalbi</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <h1>Rafi khalbi</h1>
+        </div>
+        <div class="nav-menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skill">Skill</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- section home -->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1><span>Hello,</span> welcome</h1>
+            <p>Python Developer, and Web Desaigner</p>
+            <div class="social">
+                <a href="https://github.com/Rafikhalbi" target="_blank">
+                    <img src="images/github.png" alt="Github">
+                </a>
+                <a href="https://id.linkedin.com/in/rafi-khalbi-a8942425a" target="_blank">
+                    <img src="images/linkedin.png" alt="Linkedin">
+                </a>
+            </div>
+            <div class="contact">
+                <a href="#contact">Contact</a>
+            </div>
+        </main>
+    </section>
+    <!-- end section home -->
+    <!-- section about -->
+    <section class="about" id="about">
+        <h1><span>About</span> me</h1>
+        <div class="container">
+            <div class="about-img">
+                <img src="./images/pngwing.com.png" alt="About me">
+            </div>
+            <div class="content">
+                <p>Halo, saya <span style="font-weight: bold;">Rafi khalbi</span> , dan saya adalah seorang pengembang backend dengan semangat dalam menciptakan dunia digital yang kuat dan efisien. Dengan pengalaman dan pengetahuan yang saya miliki, saya telah berperan dalam membentuk berbagai platform dan layanan yang andal di belakang layar. Berikut adalah gambaran singkat tentang diri saya</p>
+                <p>Sebagai seorang anak backend, saya memiliki pemahaman yang mendalam tentang bahasa pemrograman seperti Python, PHP, dan Node.js. Saya juga sangat terampil dalam penggunaan kerangka kerja seperti Django, Flask, dan Express, yang memungkinkan saya untuk membangun infrastruktur yang kokoh dan scalable untuk aplikasi.</p>
+            </div>
+        </div>
+    </section>
+    <!-- end section about -->
+    <!-- section skill -->
+    <section class="skill" id="skill">
+        <h1>skill</h1>
+        <div class="myskill">
+            <ul>
+                <li>
+                    <h3>Pengembangan Database</h3>
+                    <p>Saya memiliki keahlian dalam merancang dan mengelola database, termasuk model data, kueri kompleks, dan optimisasi kinerja. Pengalaman saya meliputi SQL dan NoSQL database seperti MySQL, PostgreSQL, dan MongoDB.</p>
+                </li>
+                <li>
+                    <h3>API Development</h3>
+                    <p>Saya piawai dalam merancang dan mengimplementasikan antarmuka pemrograman aplikasi (API) yang kuat. Saya mampu membuat API yang intuitif, aman, dan mudah diintegrasikan dengan berbagai aplikasi klien.</p>
+                </li>
+                <li>
+                    <h3>Keamanan</h3>
+                    <p>Keamanan data dan aplikasi adalah prioritas utama saya. Saya memiliki pengetahuan tentang praktik-praktik keamanan terbaik dan menerapkan lapisan perlindungan untuk mencegah ancaman siber.</p>
+                </li>
+                <li>
+                    <h3>Optimisasi Kinerja</h3>
+                    <p>Saya selalu berusaha untuk mencapai kinerja yang optimal dalam setiap proyek yang saya kerjakan. Saya melakukan tuning dan pengoptimalan untuk memastikan aplikasi berjalan dengan cepat dan efisien.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <!-- end section skill -->
+    <!-- project -->
+    <section class="project" id="project">
+        <h1>Project</h1>
+        <div class="container">
+            <div class="project-list">
+              <div class="project-title">Fbmessage</div>
+              <div class="project-description">Auto reply message from facebook</div>
+              <a href="https://github.com/Rafikhalbi/fbmessage" class="button">view</a>
+            </div>
+            <div class="project-list">
+              <div class="project-title">Crackfb</div>
+              <div class="project-description">Menjadi cracker sejati:)</div>
+              <a href="https://github.com/Rafikhalbi/crack-fb" class="button">view</a>
+            </div>
+        </div>
+    </section>
+    <!-- end project -->
+    <!-- contact -->
+    <section class="contact-me" id="contact">
+        <h1>Contact</h1>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <!-- end contact -->
+    <script src="js/script.js"></script>
+</body>
+</html>
